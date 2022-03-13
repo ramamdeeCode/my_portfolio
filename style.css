@@ -1,0 +1,68 @@
+/* this is the div that center the profile in the middle and set background color */
+.center-div {
+  margin-left: 25%;
+  background-color: #23245e;
+  width: 50%;
+  height: 100vh;
+  padding: auto;
+  font-size: large;
+}
+/* body for setting background and other properties of the whole page */
+body {
+  background-color: rgb(32, 33, 75);
+  color: rgb(243, 240, 229);
+  font-family: monospace;
+}
+/* this is the header class that set the image background from the image folder, give it size and other propeties */
+.header {
+  margin-top: 1px;
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("image/profile.png");
+  background-size: cover;
+  border: solid rgb(32, 33, 75);
+  border-radius: 200px;
+}
+/* this class set properties of the hr tag in the header section in the html page */
+.line {
+  border: 2px dashed rgb(119, 115, 115);
+}
+/* this is the heading class that set propeties of the H1 and H4 in the header section */
+.heading {
+  margin-top: 110%;
+  text-align: center;
+  line-height: 1%;
+  color: rgb(243, 145, 145);
+}
+/* this property target the h1 text in the header  */
+.heading h1 {
+  font-size: 30px;
+}
+/* this class gives a marging between header and main section */
+.main {
+  margin-top: 100px;
+}
+
+/* this target all the h3 in the page */
+h3 {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(243, 145, 145);
+  font-family: monospace;
+}
+
+/* this target a link in the list inside the footer sections */
+a:link {
+  color: rgb(239, 239, 248);
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: green;
+}
+a:active {
+  color: pink;
+}
